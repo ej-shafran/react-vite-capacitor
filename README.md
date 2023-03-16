@@ -54,17 +54,24 @@ npm run open:android # 🤖 For Android
 ├── android
 ├── ios
 ├── src
-│ ├── components
 | ├── assets
+│ ├── common
+│ │  ├── constants
+│ │  ├── functions
+│ │  ├── hooks
+│ │  ├── types
+│ ├── components
+│ ├── styles
 | ├── App.tsx
 │ ├── main.tsx
 | ├── vite-env.d.ts
 ├── .gitignore
 ├── index.html
+├── package-lock.json
 ├── package.json
 ├── README.md
-├── vite.config.js
 ├── tsconfig.json
 ├── tsconfig.node.json
+├── vite.config.js
 └── capacitor.config.json
 ```
