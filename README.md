@@ -1,49 +1,49 @@
-# React Vite Capacitor Starter :zap: + 📱
+# React Vite Capacitor Starter :zap: + 📱 - Shafran fork
 
 This is a starter template for building mobile applications with React, Vite, and [Capacitor](https://capacitorjs.com). It includes a basic project setup and some sample components to help you get started.
 
 ## Getting Started
 
-To use this starter template, you'll need to have Node.js on machine.
+To use this starter template, you'll need to have Node.js on your machine.
 
 Clone this repository:
 
 ```
-git clone https://github.com/Mohit-wednesday/react-vite-capacitor.git
+git clone https://github.com/ej-shafran/react-vite-capacitor.git
 
 ```
 
 Install the dependencies:
 
 ```
-yarn install
+npm install
 ```
 
 Run the development server:
 
 ```
-yarn dev
+npm start
 ```
 
 To build the app for production:
 
 ```
-yarn build
+npm build
 ```
 
 To run the app on a device, use the Capacitor CLI:
 
 ```
-yarn run:ios // 🍎 For iOS
-yarn run:android // 🤖 For Android
+npm run start:ios // 🍎 For iOS
+npm run start:android // 🤖 For Android
 
 ```
 
 To open the respective directory in Xcode or Android Studio:s
 
 ```
-yarn open:ios // 🍎 For iOS
-yarn open:android // 🤖 For Android
+npm run open:ios // 🍎 For iOS
+npm run open:android // 🤖 For Android
 ```
 
 ## 📁 Project Structure
@@ -55,10 +55,8 @@ yarn open:android // 🤖 For Android
 ├── src
 │ ├── components
 | ├── assets
-│ ├── App.css
 | ├── App.tsx
 │ ├── main.tsx
-| ├── index.css
 | ├── vite-env.d.ts
 ├── .gitignore
 ├── index.html
