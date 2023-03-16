@@ -4,51 +4,52 @@ This is a starter template for building mobile applications with React, Vite, an
 
 ## Getting Started
 
-To use this starter template, you'll need to have Node.js on your machine.
-
 Clone this repository:
 
+```bash
+git clone https://github.com/ej-shafran/react-vite-capacitor.git <PROJECT NAME>
+rm -Rf <PROJECT NAME>/.git
 ```
-git clone https://github.com/ej-shafran/react-vite-capacitor.git
 
-```
+You'll notice that a lot of the folders have a `.keep` file in them - this is so git can keep track of them. Once you've added files to a folder, you can (_and should_) delete the `.keep` file from it.
 
 Install the dependencies:
 
-```
+```bash
 npm install
 ```
 
 Run the development server:
 
-```
+```bash
 npm start
 ```
 
+You may be used to `create-react-app` automatically opening the server in your browser, but this command **will not do that**; you'll need to type `o` on your keyboard at the terminal the server is running on to open it in the browser. (This is nice because we don't get 30 open tabs of the same project).
+
 To build the app for production:
 
-```
+```bash
 npm build
 ```
 
 To run the app on a device, use the Capacitor CLI:
 
+```bash
+npm run start:ios # 🍎 For iOS
+npm run start:android # 🤖 For Android
 ```
-npm run start:ios // 🍎 For iOS
-npm run start:android // 🤖 For Android
 
-```
+To open the respective directory in Xcode or Android Studio
 
-To open the respective directory in Xcode or Android Studio:s
-
-```
-npm run open:ios // 🍎 For iOS
-npm run open:android // 🤖 For Android
+```bash
+npm run open:ios # 🍎 For iOS
+npm run open:android # 🤖 For Android
 ```
 
 ## 📁 Project Structure
 
-```
+```any
 ├── public
 ├── android
 ├── ios
@@ -67,7 +68,3 @@ npm run open:android // 🤖 For Android
 ├── tsconfig.node.json
 └── capacitor.config.json
 ```
-
-### 👥 Contributing
-
-If you'd like to contribute to this starter template, feel free to submit a pull request.
